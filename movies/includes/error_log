@@ -1,0 +1,15 @@
+[09-Apr-2021 09:46:00 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u949344532_starflix`.`users_favorites`, CONSTRAINT `link_user_movie` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php:9
+Stack trace:
+#0 /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php(9): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php on line 9
+[09-Apr-2021 10:16:18 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u949344532_starflix`.`users_favorites`, CONSTRAINT `link_user_movie` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php:9
+Stack trace:
+#0 /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php(9): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php on line 9
+[09-Apr-2021 10:16:21 UTC] PHP Fatal error:  Uncaught PDOException: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`u949344532_starflix`.`users_favorites`, CONSTRAINT `link_user_movie` FOREIGN KEY (`idUser`) REFERENCES `users` (`id`) ON DELETE CASCADE ON UPDATE CASCADE) in /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php:9
+Stack trace:
+#0 /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php(9): PDO->query('INSERT INTO use...')
+#1 {main}
+  thrown in /home/u949344532/domains/alexandre-chiquet.com/public_html/starflix/movies/includes/addMovieFavorite.php on line 9
